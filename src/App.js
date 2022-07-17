@@ -1,7 +1,7 @@
 import {useEffect} from 'react';
 
 import './App.css';
-import SearchIcon from "./search.svg";
+import SerachIcon from './search.svg';
 //f91bfadb
 
 const API_URL = 'http://www.omdbapi.com?apikey=f91bfadb';
@@ -26,7 +26,7 @@ const App = () => {
             <div className='search'>
                 <input
                 placeholder='Search for movie' value='Superman' onChange={() => {}}/>
-                <img src=''/>
+                <img src={SerachIcon} alt='Search'/>
             </div>
         </div>
     );
